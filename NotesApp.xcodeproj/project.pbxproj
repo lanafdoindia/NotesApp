@@ -7,25 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843C7F4628D0BD7B00BCFA1E /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C7F4528D0BD7B00BCFA1E /* NotesViewController.swift */; };
+		8443889028D39AB40010E91C /* ExtensionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443888F28D39AB40010E91C /* ExtensionClass.swift */; };
+		845671A428D5BA4F0035D149 /* NotesCreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845671A328D5BA4F0035D149 /* NotesCreateViewModel.swift */; };
+		845671A628D5D05A0035D149 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845671A528D5D05A0035D149 /* BaseViewController.swift */; };
+		847B70EB28D21F8C0078A5B7 /* NotesImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B70EA28D21F8C0078A5B7 /* NotesImageViewController.swift */; };
+		847B70EE28D22C3C0078A5B7 /* NotesCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B70ED28D22C3C0078A5B7 /* NotesCollectionViewLayout.swift */; };
 		84D174D628CF417600B4F81E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D174D528CF417600B4F81E /* AppDelegate.swift */; };
 		84D174D828CF417600B4F81E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D174D728CF417600B4F81E /* SceneDelegate.swift */; };
-		84D174DA28CF417600B4F81E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D174D928CF417600B4F81E /* ViewController.swift */; };
-		84D174DD28CF417600B4F81E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D174DB28CF417600B4F81E /* Main.storyboard */; };
+		84D174DA28CF417600B4F81E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D174D928CF417600B4F81E /* HomeViewController.swift */; };
 		84D174E028CF417600B4F81E /* NotesApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84D174DE28CF417600B4F81E /* NotesApp.xcdatamodeld */; };
 		84D174E228CF417800B4F81E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D174E128CF417800B4F81E /* Assets.xcassets */; };
 		84D174E528CF417800B4F81E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D174E328CF417800B4F81E /* LaunchScreen.storyboard */; };
+		84D174F228CF44EA00B4F81E /* NotesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D174F128CF44EA00B4F81E /* NotesModel.swift */; };
+		84D174F428CF45DF00B4F81E /* NotesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D174F328CF45DF00B4F81E /* NotesService.swift */; };
+		84D174F628CF71FE00B4F81E /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D174F528CF71FE00B4F81E /* NotesViewModel.swift */; };
+		84D174F928CF782E00B4F81E /* NotesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D174F828CF782E00B4F81E /* NotesCollectionViewCell.swift */; };
+		84D174FB28CF84AA00B4F81E /* NotesCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D174FA28CF84AA00B4F81E /* NotesCreateViewController.swift */; };
+		84D174FD28CF90D800B4F81E /* NotesCreateHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D174FC28CF90D800B4F81E /* NotesCreateHeaderView.swift */; };
+		84D174FF28CFA96600B4F81E /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D174FE28CFA96600B4F81E /* CoreDataService.swift */; };
+		84D1750628CFAEBF00B4F81E /* Notes+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1750428CFAEBF00B4F81E /* Notes+CoreDataClass.swift */; };
+		84D1750728CFAEBF00B4F81E /* Notes+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1750528CFAEBF00B4F81E /* Notes+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		843C7F4528D0BD7B00BCFA1E /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		8443888F28D39AB40010E91C /* ExtensionClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionClass.swift; sourceTree = "<group>"; };
+		845671A328D5BA4F0035D149 /* NotesCreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesCreateViewModel.swift; sourceTree = "<group>"; };
+		845671A528D5D05A0035D149 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		847B70EA28D21F8C0078A5B7 /* NotesImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesImageViewController.swift; sourceTree = "<group>"; };
+		847B70ED28D22C3C0078A5B7 /* NotesCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesCollectionViewLayout.swift; sourceTree = "<group>"; };
 		84D174D228CF417600B4F81E /* NotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D174D528CF417600B4F81E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D174D728CF417600B4F81E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84D174D928CF417600B4F81E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84D174DC28CF417600B4F81E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D174D928CF417600B4F81E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		84D174DF28CF417600B4F81E /* NotesApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotesApp.xcdatamodel; sourceTree = "<group>"; };
 		84D174E128CF417800B4F81E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D174E428CF417800B4F81E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84D174E628CF417800B4F81E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D174F128CF44EA00B4F81E /* NotesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesModel.swift; sourceTree = "<group>"; };
+		84D174F328CF45DF00B4F81E /* NotesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesService.swift; sourceTree = "<group>"; };
+		84D174F528CF71FE00B4F81E /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
+		84D174F828CF782E00B4F81E /* NotesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesCollectionViewCell.swift; sourceTree = "<group>"; };
+		84D174FA28CF84AA00B4F81E /* NotesCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesCreateViewController.swift; sourceTree = "<group>"; };
+		84D174FC28CF90D800B4F81E /* NotesCreateHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesCreateHeaderView.swift; sourceTree = "<group>"; };
+		84D174FE28CFA96600B4F81E /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		84D1750428CFAEBF00B4F81E /* Notes+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notes+CoreDataClass.swift"; sourceTree = "<group>"; };
+		84D1750528CFAEBF00B4F81E /* Notes+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notes+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +67,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		847B70EC28D22B930078A5B7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				847B70ED28D22C3C0078A5B7 /* NotesCollectionViewLayout.swift */,
+				8443888F28D39AB40010E91C /* ExtensionClass.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		84D174C928CF417600B4F81E = {
 			isa = PBXGroup;
 			children = (
+				84D1750428CFAEBF00B4F81E /* Notes+CoreDataClass.swift */,
+				84D1750528CFAEBF00B4F81E /* Notes+CoreDataProperties.swift */,
 				84D174D428CF417600B4F81E /* NotesApp */,
 				84D174D328CF417600B4F81E /* Products */,
 			);
@@ -58,16 +97,75 @@
 		84D174D428CF417600B4F81E /* NotesApp */ = {
 			isa = PBXGroup;
 			children = (
+				847B70EC28D22B930078A5B7 /* Helper */,
+				84D174F028CF443400B4F81E /* API */,
+				84D174EF28CF442C00B4F81E /* Controller */,
+				84D174EE28CF441600B4F81E /* ViewModel */,
+				84D174ED28CF440A00B4F81E /* View */,
+				84D174EC28CF43FF00B4F81E /* Model */,
 				84D174D528CF417600B4F81E /* AppDelegate.swift */,
 				84D174D728CF417600B4F81E /* SceneDelegate.swift */,
-				84D174D928CF417600B4F81E /* ViewController.swift */,
-				84D174DB28CF417600B4F81E /* Main.storyboard */,
 				84D174E128CF417800B4F81E /* Assets.xcassets */,
 				84D174E328CF417800B4F81E /* LaunchScreen.storyboard */,
 				84D174E628CF417800B4F81E /* Info.plist */,
 				84D174DE28CF417600B4F81E /* NotesApp.xcdatamodeld */,
 			);
 			path = NotesApp;
+			sourceTree = "<group>";
+		};
+		84D174EC28CF43FF00B4F81E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84D174F128CF44EA00B4F81E /* NotesModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84D174ED28CF440A00B4F81E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84D174F728CF780F00B4F81E /* ColletionViewCell */,
+				84D174FC28CF90D800B4F81E /* NotesCreateHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84D174EE28CF441600B4F81E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				84D174F528CF71FE00B4F81E /* NotesViewModel.swift */,
+				845671A328D5BA4F0035D149 /* NotesCreateViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		84D174EF28CF442C00B4F81E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84D174D928CF417600B4F81E /* HomeViewController.swift */,
+				84D174FA28CF84AA00B4F81E /* NotesCreateViewController.swift */,
+				843C7F4528D0BD7B00BCFA1E /* NotesViewController.swift */,
+				847B70EA28D21F8C0078A5B7 /* NotesImageViewController.swift */,
+				845671A528D5D05A0035D149 /* BaseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84D174F028CF443400B4F81E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				84D174F328CF45DF00B4F81E /* NotesService.swift */,
+				84D174FE28CFA96600B4F81E /* CoreDataService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		84D174F728CF780F00B4F81E /* ColletionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				84D174F828CF782E00B4F81E /* NotesCollectionViewCell.swift */,
+			);
+			path = ColletionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +228,6 @@
 			files = (
 				84D174E528CF417800B4F81E /* LaunchScreen.storyboard in Resources */,
 				84D174E228CF417800B4F81E /* Assets.xcassets in Resources */,
-				84D174DD28CF417600B4F81E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +238,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84D174DA28CF417600B4F81E /* ViewController.swift in Sources */,
+				84D174F928CF782E00B4F81E /* NotesCollectionViewCell.swift in Sources */,
+				84D1750628CFAEBF00B4F81E /* Notes+CoreDataClass.swift in Sources */,
+				84D174DA28CF417600B4F81E /* HomeViewController.swift in Sources */,
+				84D174F628CF71FE00B4F81E /* NotesViewModel.swift in Sources */,
+				845671A628D5D05A0035D149 /* BaseViewController.swift in Sources */,
+				8443889028D39AB40010E91C /* ExtensionClass.swift in Sources */,
 				84D174D628CF417600B4F81E /* AppDelegate.swift in Sources */,
 				84D174D828CF417600B4F81E /* SceneDelegate.swift in Sources */,
+				84D174F428CF45DF00B4F81E /* NotesService.swift in Sources */,
+				84D174FB28CF84AA00B4F81E /* NotesCreateViewController.swift in Sources */,
+				847B70EE28D22C3C0078A5B7 /* NotesCollectionViewLayout.swift in Sources */,
 				84D174E028CF417600B4F81E /* NotesApp.xcdatamodeld in Sources */,
+				84D174FF28CFA96600B4F81E /* CoreDataService.swift in Sources */,
+				845671A428D5BA4F0035D149 /* NotesCreateViewModel.swift in Sources */,
+				847B70EB28D21F8C0078A5B7 /* NotesImageViewController.swift in Sources */,
+				843C7F4628D0BD7B00BCFA1E /* NotesViewController.swift in Sources */,
+				84D174F228CF44EA00B4F81E /* NotesModel.swift in Sources */,
+				84D174FD28CF90D800B4F81E /* NotesCreateHeaderView.swift in Sources */,
+				84D1750728CFAEBF00B4F81E /* Notes+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84D174DB28CF417600B4F81E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84D174DC28CF417600B4F81E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84D174E328CF417800B4F81E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +401,6 @@
 				INFOPLIST_FILE = NotesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +427,6 @@
 				INFOPLIST_FILE = NotesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
